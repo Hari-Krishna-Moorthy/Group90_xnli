@@ -1,0 +1,34 @@
+{
+  "group": 90,
+  "dataset": "xnli",
+  "models": {
+    "mBERT": "bert-base-multilingual-cased",
+    "XLM-R": "xlm-roberta-base"
+  },
+  "training_language": "English",
+  "epochs": 1,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "max_length": 128,
+  "seed": 42,
+  "train_examples": 10000,
+  "validation_examples": 500,
+  "test_languages": [
+    "ar",
+    "bg",
+    "de",
+    "el",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "ru",
+    "sw",
+    "th",
+    "tr",
+    "ur",
+    "vi",
+    "zh"
+  ],
+  "device": "CPU"
+}

@@ -1,0 +1,13 @@
+model,language,premise,hypothesis,predicted_label,confidence
+mBERT,English,A woman is slicing vegetables in the kitchen.,A person is preparing food.,entailment,0.7669581770896912
+mBERT,English,Two children are playing football in a park.,The children are sleeping indoors.,neutral,0.5227837562561035
+mBERT,English,The train arrived at the station ten minutes late.,The train was delayed.,contradiction,0.7572539448738098
+mBERT,French,Un homme lit un journal dans le train.,Une personne est en train de lire.,entailment,0.6812549829483032
+mBERT,Spanish,Los estudiantes están sentados en un aula.,Los estudiantes están en una clase.,entailment,0.5799252390861511
+mBERT,Hindi,बच्चे बगीचे में खेल रहे हैं।,कुछ बच्चे बाहर खेल रहे हैं।,contradiction,0.4998645484447479
+XLM-R,English,A woman is slicing vegetables in the kitchen.,A person is preparing food.,neutral,0.612373411655426
+XLM-R,English,Two children are playing football in a park.,The children are sleeping indoors.,neutral,0.5704939365386963
+XLM-R,English,The train arrived at the station ten minutes late.,The train was delayed.,neutral,0.6035237908363342
+XLM-R,French,Un homme lit un journal dans le train.,Une personne est en train de lire.,neutral,0.4976370334625244
+XLM-R,Spanish,Los estudiantes están sentados en un aula.,Los estudiantes están en una clase.,entailment,0.7811985015869141
+XLM-R,Hindi,बच्चे बगीचे में खेल रहे हैं।,कुछ बच्चे बाहर खेल रहे हैं।,neutral,0.36167845129966736
